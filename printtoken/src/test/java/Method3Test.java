@@ -21,8 +21,8 @@ public class Method3Test {
         FileReader fr = new FileReader("text.txt");
 		BufferedReader br = new BufferedReader(fr);
 
-        int res1 = (int) method.invoke(pt, br);
-        Character res2 = (Character) method1.invoke(pt, 1, br);
+        int num = (int) method.invoke(pt, br);
+        Character res2 = (Character) method1.invoke(pt, num, br);
 
         System.out.print("\n Result: " + res2 + "\n");
         assertEquals(Character.class, res2.getClass());

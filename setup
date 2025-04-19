@@ -1,3 +1,5 @@
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
 mvn clean install 
+
+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

@@ -23,7 +23,7 @@ public class Method4Test {
         Method method = Printtokens.class.getDeclaredMethod("open_token_stream", String.class);
         method.setAccessible(true);
 
-        BufferedReader br1 = (BufferedReader) method.invoke(pt, "");
+        BufferedReader br1 = (BufferedReader) method.invoke(pt, (Object) null);
         assertNotNull(br1);
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Method5Test" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Method6Test" time="0.023" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\josho\.vscode\extensions\oracle.oracle-java-23.1.0\out\webviews\jdkDownloader\jdk_downloads\jdk-23.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\josho\AppData\Local\Temp\surefire15689514603919502826\surefirebooter10077514793544484002.jar C:\Users\josho\AppData\Local\Temp\surefire15689514603919502826 2025-04-18T21-43-41_610-jvmRun1 surefire15171661233881155281tmp surefire_0383425648744216999tmp"/>
+    <property name="sun.java.command" value="C:\Users\josho\AppData\Local\Temp\surefire15165304901862746151\surefirebooter12503859506487761094.jar C:\Users\josho\AppData\Local\Temp\surefire15165304901862746151 2025-04-18T22-01-00_866-jvmRun1 surefire11684262984391092863tmp surefire_09625676608351246624tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="Method5Test#openCharStream5"/>
+    <property name="test" value="Method6Test"/>
     <property name="surefire.test.class.path" value="E:\CSE Projects\Spring 2025\ST\printtoken\target\test-classes;E:\CSE Projects\Spring 2025\ST\printtoken\target\classes;C:\Users\josho\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\josho\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\josho\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\josho\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\josho\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\josho\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\josho"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\josho\AppData\Local\Temp\surefire15689514603919502826\surefirebooter10077514793544484002.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\josho\AppData\Local\Temp\surefire15165304901862746151\surefirebooter12503859506487761094.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -60,7 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="openCharStream5" classname="Method5Test" time="0.016">
-    <system-out><![CDATA["hello me"]]></system-out>
+  <testcase name="isTokenEndTest1" classname="Method6Test" time="0.014">
+    <error type="java.lang.NoSuchMethodException"><![CDATA[java.lang.NoSuchMethodException: cse4321.Printtokens.is_token_end(java.lang.Integer,java.lang.Integer)
+	at Method6Test.isTokenEndTest1(Method6Test.java:13)
+]]></error>
   </testcase>
 </testsuite>
