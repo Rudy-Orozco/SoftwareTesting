@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Method6Test
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in Method6Test
-Method6Test.isTokenEndTest1  Time elapsed: 0.014 s  <<< ERROR!
-java.lang.NoSuchMethodException: cse4321.Printtokens.is_token_end(java.lang.Integer,java.lang.Integer)
-	at Method6Test.isTokenEndTest1(Method6Test.java:13)
-
