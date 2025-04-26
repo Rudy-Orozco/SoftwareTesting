@@ -45,7 +45,7 @@ public class Method5Test {
     @Test
     void openCharStream4() throws Exception { // Special Character and end
 
-        StringReader stringReader = new StringReader("(");
+        StringReader stringReader = new StringReader("(test");
 		BufferedReader br = new BufferedReader(stringReader);
 
         String br1 = pt.get_token(br);
@@ -95,5 +95,16 @@ public class Method5Test {
         String br1 = pt.get_token(br);
         System.out.print(br1);
         assertEquals("hello", br1);
+    }
+
+    @Test
+    void openCharStream9() throws Exception {
+
+        StringReader stringReader = new StringReader("#a ");
+		BufferedReader br = new BufferedReader(stringReader);
+
+        String br1 = pt.get_token(br);
+        System.out.print(br1);
+        assertEquals("#a", br1);
     }
 }

@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
-
 import org.junit.jupiter.api.Test;
 
 public class Method1Test {
@@ -13,7 +12,7 @@ public class Method1Test {
     @Test
     void testOpenCharStream_txtfile() throws Exception {
         BufferedReader br1 = pt.open_character_stream("text.txt");
-        assertNotNull(br1, "BufferedReader should be created for valid file.");
+        assertNotNull(br1);
     }
 
     @Test
