@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: cse4321.Method8Test
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! - in cse4321.Method8Test
+cse4321.Method8Test.testPrintOutput  Time elapsed: 0.029 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <error," ".
+> but was: <identifier," ".
+>
+	at cse4321.Method8Test.testPrintOutput(Method8Test.java:31)
+
+cse4321.Method8Test.testPrintOutput3  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <lparen.
+> but was: <>
+	at cse4321.Method8Test.testPrintOutput3(Method8Test.java:43)
+
+cse4321.Method8Test.testPrintOutput4  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <identifier,"a1".
+> but was: <error,"a1".
+>
+	at cse4321.Method8Test.testPrintOutput4(Method8Test.java:49)
+
+cse4321.Method8Test.testPrintOutput5  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <numeric,"123".
+> but was: <identifier,"123".
+>
+	at cse4321.Method8Test.testPrintOutput5(Method8Test.java:55)
+
+cse4321.Method8Test.testPrintOutput6  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <string,""asdf"".
+> but was: <identifier,""asdf"".
+>
+	at cse4321.Method8Test.testPrintOutput6(Method8Test.java:61)
+
+cse4321.Method8Test.testPrintOutput7  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <character,"#a".
+> but was: <identifier,"#a".
+>
+	at cse4321.Method8Test.testPrintOutput7(Method8Test.java:67)
+
+cse4321.Method8Test.testPrintOutput8  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <comment,";aaaa".
+> but was: <identifier,";aaaa".
+>
+	at cse4321.Method8Test.testPrintOutput8(Method8Test.java:73)
+
