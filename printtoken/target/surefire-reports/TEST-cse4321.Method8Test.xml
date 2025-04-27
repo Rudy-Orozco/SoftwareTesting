@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cse4321.Method8Test" time="0.068" tests="8" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cse4321.Method8Test" time="0.051" tests="8" errors="0" skipped="0" failures="7">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
-    <property name="sun.java.command" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter3618019801704646197.jar /workspaces/SoftwareTesting/printtoken/target/surefire 2025-04-26T22-58-35_665-jvmRun1 surefire16555934533984948221tmp surefire_017199538178953726423tmp"/>
+    <property name="sun.java.command" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter9059672980687715273.jar /workspaces/SoftwareTesting/printtoken/target/surefire 2025-04-27T19-14-03_194-jvmRun1 surefire3894127542139003117tmp surefire_09378479085496284139tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/SoftwareTesting/printtoken/target/test-classes:/workspaces/SoftwareTesting/printtoken/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter3618019801704646197.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter9059672980687715273.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testPrintOutput" classname="cse4321.Method8Test" time="0.029">
+  <testcase name="testPrintOutput" classname="cse4321.Method8Test" time="0.013">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <error," ".
 > but was: <identifier," ".
@@ -65,14 +65,14 @@ expected: <error," ".
 ]]></failure>
   </testcase>
   <testcase name="testPrintOutput2" classname="cse4321.Method8Test" time="0.001"/>
-  <testcase name="testPrintOutput3" classname="cse4321.Method8Test" time="0.003">
+  <testcase name="testPrintOutput3" classname="cse4321.Method8Test" time="0.004">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <lparen.
 > but was: <>
 	at cse4321.Method8Test.testPrintOutput3(Method8Test.java:43)
 ]]></failure>
   </testcase>
-  <testcase name="testPrintOutput4" classname="cse4321.Method8Test" time="0.005">
+  <testcase name="testPrintOutput4" classname="cse4321.Method8Test" time="0">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <identifier,"a1".
 > but was: <error,"a1".
@@ -96,7 +96,7 @@ expected: <string,""asdf"".
 	at cse4321.Method8Test.testPrintOutput6(Method8Test.java:61)
 ]]></failure>
   </testcase>
-  <testcase name="testPrintOutput7" classname="cse4321.Method8Test" time="0.002">
+  <testcase name="testPrintOutput7" classname="cse4321.Method8Test" time="0.003">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <character,"#a".
 > but was: <identifier,"#a".
@@ -104,7 +104,7 @@ expected: <character,"#a".
 	at cse4321.Method8Test.testPrintOutput7(Method8Test.java:67)
 ]]></failure>
   </testcase>
-  <testcase name="testPrintOutput8" classname="cse4321.Method8Test" time="0.001">
+  <testcase name="testPrintOutput8" classname="cse4321.Method8Test" time="0.002">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <comment,";aaaa".
 > but was: <identifier,";aaaa".

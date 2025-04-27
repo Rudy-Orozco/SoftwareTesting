@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cse4321.Method7Test" time="0.1" tests="8" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cse4321.Method7Test" time="0.037" tests="8" errors="0" skipped="0" failures="6">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
-    <property name="sun.java.command" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter3618019801704646197.jar /workspaces/SoftwareTesting/printtoken/target/surefire 2025-04-26T22-58-35_665-jvmRun1 surefire16555934533984948221tmp surefire_017199538178953726423tmp"/>
+    <property name="sun.java.command" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter9059672980687715273.jar /workspaces/SoftwareTesting/printtoken/target/surefire 2025-04-27T19-14-03_194-jvmRun1 surefire3894127542139003117tmp surefire_09378479085496284139tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/SoftwareTesting/printtoken/target/test-classes:/workspaces/SoftwareTesting/printtoken/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter3618019801704646197.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/SoftwareTesting/printtoken/target/surefire/surefirebooter9059672980687715273.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -57,8 +57,8 @@
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="tokenTypeTest1" classname="cse4321.Method7Test" time="0"/>
-  <testcase name="tokenTypeTest2" classname="cse4321.Method7Test" time="0.016"/>
-  <testcase name="tokenTypeTest3" classname="cse4321.Method7Test" time="0.001">
+  <testcase name="tokenTypeTest2" classname="cse4321.Method7Test" time="0.008"/>
+  <testcase name="tokenTypeTest3" classname="cse4321.Method7Test" time="0">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
 	at cse4321.Method7Test.tokenTypeTest3(Method7Test.java:41)
 ]]></failure>
@@ -68,12 +68,12 @@
 	at cse4321.Method7Test.tokenTypeTest4(Method7Test.java:50)
 ]]></failure>
   </testcase>
-  <testcase name="tokenTypeTest5" classname="cse4321.Method7Test" time="0.002">
+  <testcase name="tokenTypeTest5" classname="cse4321.Method7Test" time="0.007">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <42> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest5(Method7Test.java:59)
 ]]></failure>
   </testcase>
-  <testcase name="tokenTypeTest6" classname="cse4321.Method7Test" time="0.001">
+  <testcase name="tokenTypeTest6" classname="cse4321.Method7Test" time="0.006">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <43> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest6(Method7Test.java:67)
 ]]></failure>
@@ -83,7 +83,7 @@
 	at cse4321.Method7Test.tokenTypeTest7(Method7Test.java:75)
 ]]></failure>
   </testcase>
-  <testcase name="tokenTypeTest8" classname="cse4321.Method7Test" time="0.017">
+  <testcase name="tokenTypeTest8" classname="cse4321.Method7Test" time="0.001">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest8(Method7Test.java:84)
 ]]></failure>

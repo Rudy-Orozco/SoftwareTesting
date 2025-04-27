@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: cse4321.Method7Test
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.1 s <<< FAILURE! - in cse4321.Method7Test
-cse4321.Method7Test.tokenTypeTest3  Time elapsed: 0.001 s  <<< FAILURE!
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in cse4321.Method7Test
+cse4321.Method7Test.tokenTypeTest3  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
 	at cse4321.Method7Test.tokenTypeTest3(Method7Test.java:41)
 
@@ -10,11 +10,11 @@ cse4321.Method7Test.tokenTypeTest4  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <41> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest4(Method7Test.java:50)
 
-cse4321.Method7Test.tokenTypeTest5  Time elapsed: 0.002 s  <<< FAILURE!
+cse4321.Method7Test.tokenTypeTest5  Time elapsed: 0.007 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <42> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest5(Method7Test.java:59)
 
-cse4321.Method7Test.tokenTypeTest6  Time elapsed: 0.001 s  <<< FAILURE!
+cse4321.Method7Test.tokenTypeTest6  Time elapsed: 0.006 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <43> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest6(Method7Test.java:67)
 
@@ -22,7 +22,7 @@ cse4321.Method7Test.tokenTypeTest7  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <5> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest7(Method7Test.java:75)
 
-cse4321.Method7Test.tokenTypeTest8  Time elapsed: 0.017 s  <<< FAILURE!
+cse4321.Method7Test.tokenTypeTest8  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <0> but was: <3>
 	at cse4321.Method7Test.tokenTypeTest8(Method7Test.java:84)
 
